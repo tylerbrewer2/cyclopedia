@@ -3,3 +3,21 @@
   text-align: center;
   width: 66.66%;
 }
+
+.InfoBox h1 {
+  animation: fadeIn .5s, fromRight .5s;
+}
+
+.InfoBox p {
+  animation: fadeIn 1s, fromRight 1s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fromRight {
+  from { margin-left: -20px; }
+  to { margin-left: 0px; }
+}
