@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Dinot-medium-italic';
+  src: url('./fonts/DINOT-MediumItalic.otf');
+}
+
+@font-face {
+  font-family: 'Dinot-regular';
+  src: url('./fonts/DINOT-Regular.otf');
+}
+
+body {
+  font-family: 'Dinot-regular';
+}
+
+h1 {
+  font-family: Dinot-medium-italic;
+  text-transform: uppercase;
+}
