@@ -7,7 +7,7 @@ import '../styles/LeftColumn.css';
 export default function LeftColumn(props) {
   return (
     <div className="LeftColumn">
-      <InfoBox />
+      <InfoBox clickedPart={props.clickedPart} />
     </div>
   );
 }

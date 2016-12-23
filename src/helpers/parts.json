@@ -2,10 +2,10 @@
   "parts": [
     {
       "name": "Top Tube",
-      "class_name": "top-tube",
+      "className": "top-tube",
       "description": "The top tube, or cross-bar, connects the top of the head tube to the top of the seat tube. In a traditional-geometry diamond frame, the top tube is horizontal (parallel to the ground). In a compact-geometry frame, the top tube is normally sloped downward toward the seat tube for additional standover clearance.",
-      "top": 20,
-      "left": 66
+      "top": 22,
+      "left": 51
     }
   ]
 }

@@ -18,6 +18,7 @@ export default function MappedContainer(props) {
           className={part.className}
           top={part.top}
           left={part.left}
+          updateInfo={props.updateInfo}
         />,
       )}
     </div>
@@ -26,4 +27,5 @@ export default function MappedContainer(props) {
 
 MappedContainer.propTypes = {
   parts: PropTypes.arrayOf(React.PropTypes.obj),
+  updateInfo: PropTypes.func.isRequired,
 };

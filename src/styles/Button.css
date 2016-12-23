@@ -2,6 +2,10 @@
   position: absolute;
 }
 
+.Button:hover {
+  cursor: pointer;
+}
+
 .outer-circle {
   display: inline-block;
   position: relative;

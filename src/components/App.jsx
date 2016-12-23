@@ -10,16 +10,23 @@ const PARTS = require('../helpers/parts.json');
 export default class App extends React.Component {
   constructor(props) {
     super(props);
+    this.updateInfo = this.updateInfo.bind(this);
     this.state = {
-      parts: {},
+      parts: PARTS.parts,
+      clickedPart: {},
     };
+  }
+
+  updateInfo(className) {
+    const clickedPart = this.state.parts.find(part => part.className === className);
+    this.setState({ clickedPart });
   }
 
   render() {
     return (
       <div>
-        <LeftColumn />
-        <RightColumn parts={PARTS.parts} />
+        <LeftColumn clickedPart={this.state.clickedPart} />
+        <RightColumn parts={this.state.parts} updateInfo={this.updateInfo} />
       </div>
     );
   }
