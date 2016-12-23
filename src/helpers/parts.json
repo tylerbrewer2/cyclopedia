@@ -6,6 +6,41 @@
       "description": "The top tube, or cross-bar, connects the top of the head tube to the top of the seat tube. In a traditional-geometry diamond frame, the top tube is horizontal (parallel to the ground). In a compact-geometry frame, the top tube is normally sloped downward toward the seat tube for additional standover clearance.",
       "top": 22,
       "left": 51
+    },
+    {
+      "name": "Down Tube",
+      "className": "down-tube",
+      "description": "The down tube connects the head tube to the bottom bracket shell. On racing bicycles and some mountain and hybrid bikes, the derailleur cables run along the down tube, or inside the down tube. On older racing bicycles, the shift levers were mounted on the down tube. On newer ones, they are mounted with the brake levers on the handlebars.",
+      "top": 42,
+      "left": 55
+    },
+    {
+      "name": "Chain Stays",
+      "className": "chain-stays",
+      "description": "The chain stays run parallel to the chain, connecting the bottom bracket shell to the rear fork ends or dropouts. When the rear derailleur cable is routed partially along the down tube, it is also routed along the chain stay. Occasionally (principally on frames made since the late 1990s) mountings for disc brakes will be attached to the chain stays. There may be a small brace that connects the chain stays in front of the rear wheel and behind the bottom bracket shell.",
+      "top": 61,
+      "left": 31
+    },
+    {
+      "name": "Seat Stays",
+      "className": "seat-stays",
+      "description": "The seat stays connect the top of the seat tube (often at or near the same point as the top tube) to the rear fork dropouts. A traditional frame uses a simple set of paralleled tubes connected by a bridge above the rear wheel. When the rear derailleur cable is routed partially along the top tube, it is also usually routed along the seat stay.",
+      "top": 45,
+      "left": 25
+    },
+    {
+      "name": "Seat Tube",
+      "className": "seat-tube",
+      "description": "The seat tube contains the seatpost of the bike, which connects to the saddle. The saddle height is adjustable by changing how far the seatpost is inserted into the seat tube. On some bikes, this is achieved using a quick release lever. The seatpost must be inserted at least a certain length; this is marked with a minimum insertion mark.",
+      "top": 42,
+      "left": 37
+    },
+    {
+      "name": "Fork",
+      "className": "fork",
+      "description": "A bicycle fork is the part of a bicycle that holds the front wheel. A fork typically consists of two blades which are joined at the top by a fork crown. Above the crown, a steerer tube attaches the fork to the bicycle and the handlebars (via a stem) allowing the user to steer the bicycle. The steerer tube of the fork interfaces with the frame via bearings called a headset mounted in the head tube.",
+      "top": 48,
+      "left": 70
     }
   ]
 }
