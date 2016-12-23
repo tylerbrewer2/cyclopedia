@@ -5,6 +5,8 @@ import RightColumn from './RightColumn';
 
 import '../styles/App.css';
 
+const PARTS = require('../helpers/parts.json');
+
 export default class App extends React.Component {
   constructor(props) {
     super(props);
@@ -17,7 +19,7 @@ export default class App extends React.Component {
     return (
       <div>
         <LeftColumn />
-        <RightColumn />
+        <RightColumn parts={PARTS.parts} />
       </div>
     );
   }
